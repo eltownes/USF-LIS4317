@@ -10,3 +10,5 @@ With so many data points, the heat map provides a quick way to spot differences 
 
 The .csv file was obtained from healthdata.gov, analyzed in RStudio and then modified in Adobe Illustrator.
 
+The code and data file can be obtained from GitHub @ https://github.com/eltownes/USF-LIS4317/tree/master/Module%206
+

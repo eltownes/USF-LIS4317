@@ -2,7 +2,7 @@ Visual Distribution Analysis
 
 
 
-S&P 500 Distribution of Monthly Returns
+S&P 500 Distribution of Monthly Returns (Adj Close)
 
 
 Given the current state of the coronavirus and the stock markets, I decided to look at the monthly performance of the SPY since January 1993.

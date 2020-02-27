@@ -1,6 +1,7 @@
 
 # prep environment
 library(readr)
+library(dplyr)
 
 # read data
 data1 <- read_csv("SPY-month.csv")

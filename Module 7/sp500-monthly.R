@@ -1,7 +1,6 @@
 
 # prep environment
 library(readr)
-library(dplyr)
 
 # read data
 data1 <- read_csv("SPY-month.csv")
@@ -40,5 +39,3 @@ abline(v = modeVal_V, col = "magenta", lwd=2)
 abline(v = summ[4], col = "red", lwd=2)
 abline(v = summ[5], col = "black", lwd=2)
 abline(v = summ[6], col = "yellow", lwd=2)
-
-modeVal_V

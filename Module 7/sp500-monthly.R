@@ -9,7 +9,7 @@ data1 <- read_csv("SPY-month.csv")
 # populate with previous price
 data1$PrevAdjClose <- lag(x=data1$`Adj Close`)
 # issues ?
-index <- which(any(is.na(data1)))
+index <- which(any(is.na(data1$PrevAdjClose)))
 data1$PrevAdjClose[index] <- data1$`Adj Close`
 
 # calculate return
@@ -41,3 +41,4 @@ abline(v = summ[4], col = "red", lwd=2)
 abline(v = summ[5], col = "black", lwd=2)
 abline(v = summ[6], col = "yellow", lwd=2)
 
+modeVal_V

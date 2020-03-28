@@ -32,27 +32,27 @@ grpText <- plot_annotation(title="Occupancy Detection for an Office Room",
     )
   )
 var1 <- ggplot(dataAll, aes(x=Date,y=Light,color=Occupancy) ) +
-  geom_point(size=1) +
+  geom_point(size=0) +
   theme(axis.title.x = element_blank() ) +
   theme(axis.title.y = element_blank() ) +
   labs(title="Light", subtitle="in Lux")
 var2<- ggplot(dataAll, aes(x=Date,y=Temperature,color=Occupancy) ) +
-  geom_point(size=1) +
+  geom_point(size=0) +
   theme(axis.title.x = element_blank() ) +
   theme(axis.title.y = element_blank() ) +
   labs(title="Temperature", subtitle="in Fahrenheits")
 var3 <- ggplot(dataAll, aes(x=Date,y=CO2,color=Occupancy) ) +
-  geom_point(size=1) +
+  geom_point(size=0) +
   theme(axis.title.x = element_blank() ) +
   theme(axis.title.y = element_blank() ) +
   labs(title="CO2", subtitle="in parts per million")
 var4 <- ggplot(dataAll, aes(x=Date,y=Humidity,color=Occupancy) ) +
-  geom_point(size=1) +
+  geom_point(size=0) +
   theme(axis.title.x = element_blank() ) +
   theme(axis.title.y = element_blank() ) +
   labs(title="Humidity", subtitle="in relative %")
 var5 <- ggplot(dataAll, aes(x=Date,y=HumidityRatio,color=Occupancy) ) +
-  geom_point(size=1) +
+  geom_point(size=0) +
   theme(axis.title=element_text(size=14) ) +
   theme(axis.title.y = element_blank() ) +
   labs(title="Humidity Ratio", subtitle="in kgwater-vapor/kg-air")

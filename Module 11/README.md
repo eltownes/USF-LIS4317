@@ -2,7 +2,7 @@ Tufte in R
 
 Marginal boxplot scatterplot
 
-This assignment uses one of Tufte's ideas as presented by Dr. Lukasz Piwek in the post titled Tufte in R.
+This assignment uses one of Tufte's ideas as presented by Dr. Lukasz Piwek in the post titled [Tufte in R](http://motioninsocial.com/tufte/#introduction).
 
 This post does not use a data set for the plot but instead uses the sample() function to generate 5000 numbers from -4 to 4 inclusive. The best analogy for this plot is a stock chart. As time passes (1-5000), the generated number will determine how much to go up or down. 
 
